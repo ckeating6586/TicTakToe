@@ -13,7 +13,6 @@
 		1A27D37926F908460017B71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27D37726F908460017B71F /* Main.storyboard */; };
 		1A27D37B26F908580017B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A27D37A26F908580017B71F /* Assets.xcassets */; };
 		1A27D37E26F908580017B71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27D37C26F908580017B71F /* LaunchScreen.storyboard */; };
-		1A27D38826FA845F0017B71F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27D38726FA84590017B71F /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		1A27D37A26F908580017B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A27D37D26F908580017B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A27D37F26F908580017B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A27D38726FA84590017B71F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				1A27D37A26F908580017B71F /* Assets.xcassets */,
 				1A27D37C26F908580017B71F /* LaunchScreen.storyboard */,
 				1A27D37F26F908580017B71F /* Info.plist */,
-				1A27D38726FA84590017B71F /* CollectionViewController.swift */,
 			);
 			path = TicTakToe;
 			sourceTree = "<group>";
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A27D38826FA845F0017B71F /* CollectionViewController.swift in Sources */,
 				1A27D37626F908460017B71F /* ViewController.swift in Sources */,
 				1A27D37226F908460017B71F /* AppDelegate.swift in Sources */,
 				1A27D37426F908460017B71F /* SceneDelegate.swift in Sources */,

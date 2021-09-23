@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var labelResult: UILabel!
+    @IBOutlet weak var changeLabel: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
-
+    @IBAction func changeLabelAction(_ sender: UIButton) {
+        labelResult.text = "X"
+    }
+    
 }
 
