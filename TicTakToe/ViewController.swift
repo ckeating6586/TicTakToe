@@ -8,8 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var labelResult: UILabel!
-    @IBOutlet weak var changeLabel: UIButton!
+    var currentPlayer = 0;
+    @IBOutlet var boxWasPressed: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,15 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func changeLabelAction(_ sender: UIButton) {
-        labelResult.text = "X"
+    @IBAction func changeButtonText(_ sender: UIButton) {
+        if self.currentPlayer%2 == 0 {
+            sender.setTitle("X", for: .normal)
+        }
+        else {
+            sender.setTitle("O", for: .normal)
+        }
+        currentPlayer += 1
+        sender.isUserInteractionEnabled = false
     }
     
 }
